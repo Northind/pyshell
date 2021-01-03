@@ -47,3 +47,14 @@ Your command-history is located in `~/.pyshellhistory`.
 When exfiltrating data, a tgz file will be created in the `downloads`
 subdirectory (which will be created as needed). If you do not have permission to
 read a file, the file will simply be omitted in the downloaded archive.
+
+-----------------------------------------------------------------------------------------
+
+Apart from these above, I made some changes to this project. Below are the differences.
+1. fix the problems mentioned of 'cd' to some extent;
+2. choose zip which is universal as the format of compressed files;
+3. Supports the eval shell of PHP and ASP;
+4. Both the attacker pc and the victim pc are able to run on Windows and Linux system;
+5. Additional functions: downloading of folders, downloading of big files(users can operate other commands and check the downloading progress while downloading these files), and renaming and deleting of files.
+
+I am a green-hand programmer and I am aware about the efficiency of the code is quite low. If you have some advice to optimize it, please let me know.

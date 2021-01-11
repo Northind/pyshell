@@ -58,3 +58,5 @@ Apart from these above, I made some changes to this project. Below are the diffe
 5. Additional functions: downloading of folders, downloading of big files(users can operate other commands and check the downloading progress while downloading these files), and renaming and deleting of files.
 
 I am a green-hand programmer and I am aware about the efficiency of the code is quite low. If you have some advice to optimize it, please let me know.
+
+### fix on a small bug

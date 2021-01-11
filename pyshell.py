@@ -352,8 +352,9 @@ def run():
         global url, q, sep
         global current_path
         sep = '\\'
-        q.put('C:\\')
-        current_path = 'C:\\'
+        current_path = makeRequest(timeout, 'cmd ', '/c "{}"'.format("chdir")).strip()
+        q.put(current_path)
+        ##current_path = 'C:\\'
         while True:
             try:
                 inputstr = input('{}{} {}${} '.format(
